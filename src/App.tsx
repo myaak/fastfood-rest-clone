@@ -1,6 +1,4 @@
-import React, { useEffect, useState, useMemo, useRef } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react';
 import { menuLinks, footerAboutLinks, footerContactsLinks } from './constants/constants';
 import { menuList } from './constants/menuList';
 import {
@@ -10,7 +8,6 @@ import {
 
 function App() {
   const [language, setLanguage] = useState<string>('RU')
-  const [languageChanged, setLanguageChanged] = useState<boolean>(false)
   const [currentCategory, setActiveCategory] = useState<string>(menuLinks[0].title)
   const [menuItems, setMenuItems] = useState(menuList.filter((item) => item.category == currentCategory))
   const [categoryChanged, setCategoryChanged] = useState<boolean>(false);
