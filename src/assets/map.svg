@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>map-svg</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAGlQTFRF////7nID7nIE7XID6XAD7HED5G8H6nYN6JlS39zZ393c5JZS5W8G//78/v7+/Pz8/vv55phS39/f393b39/e397d5qx4//38/v386G8D6ZlS39za39vW55hS6nAD7nME63UM63EE7XMFY/XTzQAAAINJREFUeJyNkusOgjAMhdvNyuSqgNxB8f0fEskWHJQmnl/t+dIl7RmAEzrBXuhJ8n2CeE6O/kYk4BqlL3RVPrFlQOYWRqQYiE2SZvcHn8D8W6YFMaDLFTw5wKoGaAx/SrVdP4zTi0+8NdH8OVvk/83lI8pAzENO0CeH0KXPsBHuW/LrFuhyA+HsrjAAAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
